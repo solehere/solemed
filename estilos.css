@@ -1,0 +1,23 @@
+body{
+    background-image: url(./imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hdos {background-color:cadetblue;
+text-align: center;
+text-decoration:underline;}
+h1 {color:cadetblue;
+    font: size 100px;;
+    text-decoration: underline ;
+text-align: center;}
+p{text-align: center;}
+ul{ text-align:center;}
+li{text-align: center;}
+.hdos_b{background-color: cadetblue;
+    text-align:center;
+    text-decoration:underline;}
+.ul_a {text-align: center;}
+.img_uno{ text-align: center;}
