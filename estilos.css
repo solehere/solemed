@@ -10,7 +10,7 @@ body{
 text-decoration:underline;
 color:#054e48}
 h1 {color:cadetblue;
-    font-size: 70px;
+    font-size: 50px;
     text-decoration: underline ;
 text-align: center;
 margin:auto;
@@ -35,9 +35,10 @@ h2 {
 
 .encabezado {
     background-color: #78e;
-    background: linear-gradient(#088b81, rgb(77, 99, 105));
+    background: linear-gradient(#5ec9c0, rgb(192, 197, 199));
     padding: 10px;
     list-style-type:none; 
+    font-size: 30px;
 }
 .redsocial a{
     display:inline-block;
@@ -50,6 +51,8 @@ h2 {
     background-color: #78e;
     text-align: center;
     transition: all 300ms ease;
+    padding: 2px;
+    
 }
 .redsocial2 {
     padding: 15px 10px;
@@ -92,4 +95,33 @@ h2 {
     transition: ease 1s;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-wrap: wrap;  
+    align-items: center;
+}
+.h4 {
+    color:cadetblue;
+    text-align: center;
+    font-size: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-wrap: wrap;  
+    align-items: center;
 
+}
+.empanadaa {
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
