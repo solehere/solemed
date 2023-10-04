@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 body{
     background-image: url(./imagenes/empanadas-saltenas\ 1.jpg);
     background-repeat: no-repeat;
@@ -6,31 +7,45 @@ body{
     background-attachment: fixed;
     
 }
+
 .hdos {text-align: center;
 text-decoration:underline;
 color:#054e48}
+
 h1 {color:cadetblue;
     font-size: 50px;
     text-decoration: underline ;
 text-align: center;
 margin:auto;
 height: auto;}
+
 p{text-align: center;
 color: beige;}
+
 ul{ text-align:center;}
+
 li{text-align: center;
 color:floralwhite;}
+
 .hdos_b{text-align:center;
     text-decoration:underline;
     color: #054e48;
     }
+
 .ul_a {text-align: center;}
-.img_uno{ text-align: center;
-border:10px solid white;
+
+.img_uno{ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 
 }
 h2 {
     font-size: 35px;
+    text-align: center;
+    text-decoration:underline;
+    color:bisque
 }
 
 .encabezado {
@@ -38,7 +53,7 @@ h2 {
     background: linear-gradient(#5ec9c0, rgb(192, 197, 199));
     padding: 10px;
     list-style-type:none; 
-    font-size: 30px;
+    font-size: 2rem;
 }
 .redsocial a{
     display:inline-block;
@@ -64,6 +79,11 @@ h2 {
     font-size: 20px;
 }
 .imgg {
+    border: whitesmoke 5px solid;
+    margin-right: 45px;
+    
+}
+.im {
     text-align: center;
 }
 .mapa {
@@ -125,3 +145,67 @@ h2 {
     color: aliceblue;
     font-size: 15px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aside2 {
+    flex: 70px;
+    padding: 20px;
+    
+}
+
+.section2 {
+    flex: 30px;
+    padding: 20px;
+    
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-wrap: wrap;  
+    align-items: center;
+   
+}
+ 
+.volver {
+display: flexbox;
+padding: 10px;
+text-decoration-line: none;
+list-style-type: none;
+text-align: center;
+
+}
+
+a:link {
+    color: rgb(219, 168, 40);
+}
+a:visited {
+    color:mediumseagreen;
+}
+a:active {
+    color: dodgerblue;
+}
+a:hover {
+    color: rosybrown;
+    background-color: #78e;
+    font-size: 5vh;
+}
+
+img:hover {
+    width: 40vh;
+   border-radius: 15vh;
+}
+
+p{
+    font-family: 'Young Serif', serif;
+  
+}
+li{
+    font-family: 'Young Serif', serif;
+}
+h1{}
+
