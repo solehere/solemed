@@ -30,6 +30,7 @@ color:floralwhite;}
 .hdos_b{text-align:center;
     text-decoration:underline;
     color: #054e48;
+    
     }
 
 .ul_a {text-align: center;}
@@ -54,6 +55,9 @@ h2 {
     padding: 10px;
     list-style-type:none; 
     font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 .redsocial a{
     display:inline-block;
@@ -191,13 +195,14 @@ a:active {
 }
 a:hover {
     color: rosybrown;
-    background-color: #78e;
+    background-color: rgb(199, 206, 246);
     font-size: 5vh;
 }
 
 img:hover {
-    width: 40vh;
+    width: 20vh;
    border-radius: 15vh;
+   display: flexbox;
 }
 
 p{
@@ -207,5 +212,32 @@ p{
 li{
     font-family: 'Young Serif', serif;
 }
-h1{}
+
+@media (min-width:575px) {
+   .celular { display: none;
+}
+}
+
+@media (min-width:775px) {
+  .recetas {
+    display: none;
+  }
+  .im {
+    display: none;
+  }
+  .hdos {
+    display: none;
+  }
+}
+.celular {
+    text-align: center;
+}
+.celu {
+   font-size: 5vh;
+   color: rgb(152, 72, 43);
+   text-decoration: underline;
+}
+
+
+
 
