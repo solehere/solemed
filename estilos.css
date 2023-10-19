@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 body{
     background-image: url(./imagenes/empanadas-saltenas\ 1.jpg);
@@ -132,7 +133,7 @@ h2 {
     align-items: center;
 }
 .h4 {
-    color:cadetblue;
+    color:brown;
     text-align: center;
     font-size: 30px;
 }
@@ -150,7 +151,7 @@ h2 {
     font-size: 15px;
 }
 
-.row {
+.roww {
     display: flex;
     flex-wrap: wrap;
 }
@@ -237,6 +238,27 @@ li{
    color: rgb(152, 72, 43);
    text-decoration: underline;
 }
+
+.card-title{
+    background: white;
+}
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
+.card-text {
+    color: #226c66;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figure-caption {
+    font-size: 25px;
+    color: #054e48;
+}
+
 
 
 
