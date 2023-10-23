@@ -10,6 +10,10 @@
     <title>Empanadas Salteñas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/17186e85d8.js" crossorigin="anonymous"></script>
+<script>
+  alert("Bienvenidos a las mejores empanadas Salteña, se te hace agua la boca.")
+</script>
+
 </head>
 <body>
   <header class="header">
@@ -27,6 +31,13 @@
     </div>
     </div>
   </header>
+
+  <br> <br>
+
+  <input type="checkbox" id="checkitem" onclick="enableDarkMode()">
+
+
+
   <div class="celular">
     <h4 class="celu">La mejor empanada es la Salteña</h4>
     <img src="./imagenes/saltaaaa.jpg" alt="">
@@ -40,6 +51,30 @@
 
   </nav>
   </aside>
+<br> <br>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/saltaaaa.jpg" class="imagencaru" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/empanadas cordobesas.jpg" class="imagencaru" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/empanadas tucumanas.jpg" class="imagencaru" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Proximo</span>
+    </button>
+  </div>
+
   <h1>Empanadas Salteñas</h1>
 <br> <br>
  <div class="roww">
@@ -161,6 +196,7 @@
 
       </div>
      </div>
+     <br> <br>
 
      <footer class="footer">
       <div>
@@ -172,9 +208,9 @@
       <a href="#" class="fa fa-twitter"></a>
       <a href="#" class="fa fa-youtube"></a>
     </div>
-    <div class="redsocial2">
-      <h4>Soledad Heredia, Medanos</h4>
-    </div>
+  
+      <button class="buton" onclick="pop ()">Copyright</button>
+  
      </footer>
     <div class="empanadaa">
      <small> &COPY;2023 <b>Empanadas</b> - Todos los derechos reservados</small>
@@ -185,6 +221,8 @@
       </a>
   </div>
 
+  <script src="./js"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
